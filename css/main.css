@@ -2,7 +2,8 @@
     background-color: #292829;
     color: #35ff59;
     height: 100vh;
-    font-family: monospace;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +21,11 @@
     box-shadow: #62986c 2px 5px 5px;
 }
 .body {
-    margin: 0;
+    
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
 }
 .course-link {
     color: #35ff59;
